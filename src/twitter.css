@@ -1,0 +1,42 @@
+body{
+    padding-top:100px;
+    margin: 0;
+    background-color: #222;
+    font-family: system-ui;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+  }
+
+  .card-twitter{
+    margin-bottom: 20px;
+  }
+.card-twitter header{
+    display: flex;
+    align-items: center;
+    gap: 4;
+}
+
+.card-twitter header div{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-twitter header span{
+    opacity: .6;
+}
+
+.card-twitter img{
+    width: 48px;
+    height: 48px;
+    border-radius: 1000px;
+    margin-right: 5px;
+}
+
+.card-twitter button{
+    margin-left: 16px;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;  
+}
